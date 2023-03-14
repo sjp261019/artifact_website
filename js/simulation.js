@@ -38,6 +38,7 @@ $(document).ready(function(){
         $("#interactive-locations").append(`<div id="sign" class="interact"></div>`);
         $("#interactive-locations").append(`<div id="subway" class="interact"></div>`);
         $("#source-vid").attr('src', 'videos/1.mp4');
+        $("#back").animate({"opacity":"0%"}, 1000, "easeInOutExpo"); //fix later
 
         $("#sign").click(function(){
             document.getElementById("sign").remove();
