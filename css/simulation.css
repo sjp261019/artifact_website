@@ -141,11 +141,9 @@ h1 { font-size: 72px; }
 
 /* INTERACTIVE */
 #screen {
-    z-index: 3;
+    z-index: 1;
     position: fixed;
-}
-#timer {
-    margin: 24px;
+    margin: 40px;
     color: #00f2ff;
     text-shadow: #00f2ff 0 0 10px;  
     mix-blend-mode: lighten;
@@ -159,6 +157,7 @@ h1 { font-size: 72px; }
     animation-direction: normal;
     animation-play-state: running;
 }
+
 .interact {
     z-index: 3;
     position: fixed;

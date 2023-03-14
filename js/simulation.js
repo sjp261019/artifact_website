@@ -14,7 +14,7 @@ $(document).ready(function(){
             var c = 3600 * 6;
 
         function myTimer(){
-            $("#timer").animate({"opacity":"85%"}, 1000, "easeInOutExpo");
+            $("#screen").animate({"opacity":"85%"}, 1000, "easeInOutExpo");
             $("#sign").delay(300).animate({"opacity":"50%"}, 1000, "easeInOutExpo");
             $("#subway").delay(400).animate({"opacity":"45%"}, 1000, "easeInOutExpo");
             --c;
