@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON ICON -->
+    <link rel="icon" href="#" type="image/x-icon">
+    
+    <!-- FOR ENGINE SEARCH RESULTS -->
+    <meta name="description" content="Metapolis">
+    <meta name="keywords" content="Metapolis">
+
+    <!-- STYLE + SCRIPT -->
+    <link rel="stylesheet" href="css/simulation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js" integrity="sha256-6XMVI0zB8cRzfZjqKcD01PBsAy3FlDASrlC8SxCpInY=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+    <script src="js/simulation.js"></script>
+
+    <title>Free Trial</title>
+</head>
+<body>
+    <!-- INTRO -->
+    <div class="bg">
+        <a href="index.html" class="hover-1"><img src="img/arrow_back.svg" id="arrow-back"></a>
+        <div id="title">
+            <h1>Welcome!</h1>
+            <h2>Enjoy your free trial of Omnicity Premium.</h2>
+            <h3>Ready to join us?  <a href="#">Create an account.</a></h3>
+            <button type="button" class="button-small-1" id="begin-trial">Begin Trial</button>
+        </div>
+    </div>
+    <!-- SIMULATION -->
+    <div id="screen">
+        <h1 id="timer"></h1>
+    </div>
+    <div id="interactive-locations">
+        <div id="sign" class="interact"></div>
+        <div id="subway" class="interact"></div>
+    </div>
+    <div id="back"><img src="img/exit.svg" class="hover-1" width="40px"></div>
+    <div class="tilt-container">
+        <span class="tilt"></span>
+        <span class="tilt"></span>
+        <span class="tilt"></span>
+        <span class="tilt"></span>
+        <span class="tilt"></span>
+        <span class="tilt"></span>
+        <span class="tilt"></span>
+        <span class="tilt"></span>
+        <span class="tilt"></span>
+        <div class="grid-effect overlay"></div>
+        <div class="vignette overlay"></div>
+        <div class="tilt-content">
+            <video id="source-vid" autoplay loop muted plays-inline width="100%">
+                    <source src="videos/1.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <h2 id="return">EXIT TRIAL</h2>
+    <div id="work">
+        
+    </div>
+</body>
